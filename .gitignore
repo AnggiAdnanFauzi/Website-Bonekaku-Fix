@@ -6,6 +6,9 @@
 !.env.example
 *.key
 auth.json
+PANDUAN_DEPLOYMENT_CPANEL.md
+*cpanel*
+*CPANEL*
 
 # ==========================================
 # DATABASE FILES & DUMPS (SENSITIVE)
