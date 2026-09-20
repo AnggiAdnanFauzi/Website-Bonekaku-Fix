@@ -1,0 +1,8 @@
+# Kunci dan blokir semua akses luar ke file .env dan file sensitif
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokir akses langsung ke folder internal
+RedirectMatch 403 ^/(vendor|config|app)/
